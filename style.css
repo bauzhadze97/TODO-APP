@@ -1,5 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+header {
+  background-image: url(./images/bg-mobile-light.jpg);
+  background-size: cover;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 24px 40px 24px;
+}
+header .todoinput {
+  margin: 0 24px;
+  display: flex;
+}
+header .todoinput button {
+  border: 1px solid;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  border-radius: 50%;
+  background: none;
+  align-self: center;
+  position: absolute;
+  margin-left: 15px;
+}
+header .todoinput input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  width: 100%;
+  background-color: #FFFFFF;
+  height: 50px;
+  font-size: 1rem;
+  padding: 10px 10px 10px 45px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Josefin Sans";
+  color: #9495A5;
 }/*# sourceMappingURL=style.css.map */
