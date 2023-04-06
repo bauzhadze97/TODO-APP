@@ -52,4 +52,70 @@ header .todoinput input {
   border-radius: 8px;
   font-family: "Josefin Sans";
   color: #9495A5;
+}
+
+main {
+  margin: -16px 24px 0 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border-radius: 5px;
+  padding: 20px 16px;
+}
+main .todobottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px 16px 20px;
+}
+main .todobottom p {
+  font-size: 12px;
+  font-weight: 400;
+}
+main .line {
+  height: 1px;
+  background-color: #E3E4F1;
+}
+main li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+  justify-content: space-between;
+}
+main li h2 {
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+main li button {
+  border: 1px solid;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  border-radius: 50%;
+  background: none;
+  margin-right: 12px;
+  cursor: pointer;
+}
+main li button:active {
+  background: linear-gradient(135deg, #55DDFF 0%, #C058F3 100%);
+  border: none;
+}
+main li .remove {
+  width: 12px;
+  height: 12px;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border-radius: 5px;
+  margin: 16px 24px 0 24px;
+  padding: 15px 0 19px 0;
+}
+.filter p {
+  margin-right: 19px;
 }/*# sourceMappingURL=style.css.map */

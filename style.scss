@@ -50,3 +50,67 @@ header {
         }
     }
 }
+main {
+    margin: -16px 24px 0 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+    border-radius: 5px;
+    padding: 20px 16px;
+    & .todobottom{
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 20px 16px 20px;
+        & p{
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+    & .line{
+        height: 1px;
+        background-color: #E3E4F1;
+    }
+        & li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            padding: 16px 20px;
+            justify-content: space-between;
+            & h2 {
+                font-size: 12px;
+                font-weight: 400;
+                display: flex;
+                align-items: center;
+            }
+            & button {
+                border: 1px solid;
+                height: 20px;
+                width: 20px;
+                outline: none;
+                border-radius: 50%;
+                background: none;
+                margin-right: 12px;
+                cursor: pointer;
+                &:active {
+                    background: linear-gradient(135deg, #55DDFF 0%, #C058F3 100%);
+                    border: none;
+                }
+            }
+            & .remove {
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+    .filter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+        border-radius: 5px;
+        margin: 16px 24px 0 24px;
+        padding: 15px 0 19px 0;
+        & p{
+            margin-right: 19px;
+        }
+    }
